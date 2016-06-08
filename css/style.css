@@ -1,0 +1,13 @@
+.wrapper1, .wrapper2, .wrapper3 {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+	height: 150px;
+	width: 500px;
+}
+
+.logo, .logo img {
+	height: 150px;
+	width: 150px;
+}
+

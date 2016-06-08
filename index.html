@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Logo Search</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Tangerine:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<form name="programform">
+		<select name="program" id="program">
+			<option value="Select" selected> Select a program </option>
+			<option value="scholarship"> Scholarship </option>
+			<option value="loanprogram"> Loan Program </option>
+		</select> 
+	</form> <br>
+	<form name="schoolform">
+		<select name="school" id="school">
+			<option value="Select" selected> Select a school </option>
+			<option value="kindergarten"> Kindergarten </option>
+			<option value="highschool"> High School </option>
+		</select>
+	</form> <br> 
+	<button id="button" value="find"> Find Matching </button>
+	<div class="all">
+	<div class="wrapper1"> 
+		<div class="logo aci s k sk"> <img src="images/aci.png"> </div>
+		<div class="logo aci s h sh"> <img src="images/aci.png"> </div>
+		<div class="logo aci l k lk"> <img src="images/aci.png"> </div>
+	</div>
+	<div class="wrapper2"> 
+		<div class="logo acm l k lk"> <img src="images/acm.png"> </div>
+		<div class="logo acm s k sk"> <img src="images/acm.png"> </div>
+		<div class="logo acm s h sh"> <img src="images/acm.png"> </div>
+	</div>
+	<div class="wrapper3"> 
+		<div class="logo afe l h lh"> <img src="images/afe.png"> </div>
+		<div class="logo afe l k lk"> <img src="images/afe.png"> </div>
+		<div class="logo afe s h sh"> <img src="images/afe.png"> </div>
+	</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>
